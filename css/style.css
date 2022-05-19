@@ -91,3 +91,65 @@ input[name="r"] {
 #r4:checked~.s1 {
     margin-left: -75%;
 }
+
+@media screen and (max-width: 800px) {
+    .slider {
+        max-width: 650px;
+        height: 500px;
+        overflow: hidden;
+        border: 10px solid #fff;
+    }
+
+    .bar {
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .slider {
+        max-width: 500px;
+        height: 400px;
+        overflow: hidden;
+        border: 10px solid #fff;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .slider {
+        max-width: 400px;
+        height: 350px;
+        overflow: hidden;
+        border: 10px solid #fff;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .slider {
+        max-width: 350px;
+        height: 300px;
+        overflow: hidden;
+        border: 10px solid #fff;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .slider {
+        max-width: 300px;
+        height: 250px;
+        overflow: hidden;
+        border: 10px solid #fff;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .slider {
+        max-width: 300px;
+        height: 200px;
+        overflow: hidden;
+        border: 10px solid #fff;
+    }
+}
