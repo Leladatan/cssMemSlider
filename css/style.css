@@ -50,6 +50,11 @@ body {
     transform: scale(1.1);
 }
 
+.bar:active {
+    width: 35px;
+    background-color: red;
+}
+
 input[name="r"] {
     position: absolute;
     visibility: hidden;
